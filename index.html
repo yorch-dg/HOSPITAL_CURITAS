@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Consulta de Pacientes</title>
+    
+    <style>
+       
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(270deg, #00c3ff, #ffff1c);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            z-index: -1;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1, h2, p, label {
+            color: #fff; 
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+       
+        .content {
+            min-height: 150vh; 
+        }
+    </style>
+
+    <script src="busqueda.js" defer></script>
+</head>
+<body>
+    <div class="background"></div> 
+
+    <div class="container">
+        <div class="content">
+            <img src="https://lirp.cdn-website.com/a979b4f7/dms3rep/multi/opt/gente-caminando-sentada-edificio-hospital-exterior-cristal-clinica-ciudad-ilustracion-vector-plano-ayuda-medica-emergencia-arquitectura-concepto-salud_74855-10130-640w.jpg" width="250" height="200">
+            <h1>Consulta de Pacientes</h1>
+            <p>Ingrese el ID del paciente o el nombre del paciente:</p>
+            
+            <label for="idPaciente">ID del paciente:</label>
+            <input type="text" id="idPaciente" placeholder="ID del paciente" /><br><br>
+            
+            <label for="nombrePaciente">Nombre del paciente:</label>
+            <input type="text" id="nombrePaciente" placeholder="Nombre del paciente" /><br><br>
+            
+            <button onclick="buscarPaciente()">Buscar</button>
+            
+            <div id="resultado"></div>
+            
+            <h2>Buscar Medicamentos</h2>
+            <label for="nombreMedicamento">Nombre del medicamento:</label>
+            <input type="text" id="nombreMedicamento" placeholder="Nombre del medicamento" /><br><br>
+            
+            <button onclick="buscarMedicamento()">Buscar Medicamento</button>
+            
+            <div id="resultadoMedicamento"></div>
+         
+            <button onclick="window.location.href='index.html'">Regresar al Inicio</button>
+        </div>
+    </div>
+</body>
+</html>
+
+

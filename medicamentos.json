@@ -1,0 +1,74 @@
+{
+    "medicamentos": [
+        {
+            "id": 1,
+            "nombre": "Paracetamol",
+            "dosis": "500mg",
+            "presentación": "Tableta",
+            "indicaciones": "Fiebre y dolor leve"
+        },
+        {
+            "id": 2,
+            "nombre": "Ibuprofeno",
+            "dosis": "400mg",
+            "presentación": "Cápsula",
+            "indicaciones": "Dolor e inflamación"
+        },
+        {
+            "id": 3,
+            "nombre": "Amoxicilina",
+            "dosis": "250mg",
+            "presentación": "Suspensión",
+            "indicaciones": "Infecciones bacterianas"
+        },
+        {
+            "id": 4,
+            "nombre": "Losartán",
+            "dosis": "50mg",
+            "presentación": "Tableta",
+            "indicaciones": "Hipertensión"
+        },
+        {
+            "id": 5,
+            "nombre": "Metformina",
+            "dosis": "850mg",
+            "presentación": "Tableta",
+            "indicaciones": "Diabetes tipo 2"
+        },
+        {
+            "id": 6,
+            "nombre": "Simvastatina",
+            "dosis": "20mg",
+            "presentación": "Tableta",
+            "indicaciones": "Colesterol alto"
+        },
+        {
+            "id": 7,
+            "nombre": "Omeprazol",
+            "dosis": "20mg",
+            "presentación": "Cápsula",
+            "indicaciones": "Acidez estomacal"
+        },
+        {
+            "id": 8,
+            "nombre": "Loratadina",
+            "dosis": "10mg",
+            "presentación": "Tableta",
+            "indicaciones": "Alergias"
+        },
+        {
+            "id": 9,
+            "nombre": "Sertralina",
+            "dosis": "50mg",
+            "presentación": "Tableta",
+            "indicaciones": "Depresión y ansiedad"
+        },
+        {
+            "id": 10,
+            "nombre": "Aspirina",
+            "dosis": "100mg",
+            "presentación": "Tableta",
+            "indicaciones": "Prevención de enfermedades cardiovasculares"
+        }
+    ]
+}

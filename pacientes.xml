@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pacientes>
+    <paciente>
+        <id>1</id>
+        <nombre>Jorge Durazno</nombre>
+        <edad>20</edad>
+        <género>Masculino</género>
+        <diagnóstico>Hipertensión</diagnóstico>
+    </paciente>
+    <paciente>
+        <id>2</id>
+        <nombre>Carlos Daniel</nombre>
+        <edad>23</edad>
+        <género>Femenino</género>
+        <diagnóstico>Diabetes</diagnóstico>
+    </paciente>
+    <paciente>
+        <id>3</id>
+        <nombre>Ivan Hernandez</nombre>
+        <edad>20</edad>
+        <género>Masculino</género>
+        <diagnóstico>Asma</diagnóstico>
+    </paciente>
+    <paciente>
+        <id>4</id>
+        <nombre>Josue Emanuel</nombre>
+        <edad>50</edad>
+        <género>Masculino</género>
+        <diagnóstico>Artritis</diagnóstico>
+    </paciente>
+    <paciente>
+        <id>5</id>
+        <nombre>Edgar sanchez</nombre>
+        <edad>22</edad>
+        <género>Masculino</género>
+        <diagnóstico>Colesterol alto</diagnóstico>
+    </paciente>
+    <paciente>
+        <id>6</id>
+        <nombre>Vanessa Soto</nombre>
+        <edad>21</edad>
+        <género>Femenino</género>
+        <diagnóstico>Deficiencia de hierro</diagnóstico>
+    </paciente>
+    <paciente>
+        <id>7</id>
+        <nombre>Ana Maria</nombre>
+        <edad>20</edad>
+        <género>Masculino</género>
+        <diagnóstico>Diabetes </diagnóstico>
+    </paciente>
+    <paciente>
+        <id>8</id>
+        <nombre>Natalia Gonzalez</nombre>
+        <edad>16</edad>
+        <género>Femenino</género>
+        <diagnóstico>Hipertensión</diagnóstico>
+    </paciente>
+    <paciente>
+        <id>9</id>
+        <nombre>Aaron Gonzalez</nombre>
+        <edad>15</edad>
+        <género>Masculino</género>
+        <diagnóstico>Enfermedad cardíaca</diagnóstico>
+    </paciente>
+    <paciente>
+        <id>10</id>
+        <nombre>Maria Guadalupe</nombre>
+        <edad>12</edad>
+        <género>Femenino</género>
+        <diagnóstico>Ansiedad</diagnóstico>
+    </paciente>
+    <paciente>
+        <id>11</id>
+        <nombre>Miguel Gonzalez</nombre>
+        <edad>28</edad>
+        <género>Masculino</género>
+        <diagnóstico>Obesidad</diagnóstico>
+    </paciente>
+</pacientes>
